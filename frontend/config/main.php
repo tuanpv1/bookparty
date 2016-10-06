@@ -12,9 +12,9 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'aliases' => [
-        '@image_food' => '../../backend/web/image_food',
-        '@image_banner' => '../../backend/web/image_banner',
-        '@image_package' => '../../backend/web/image_package',
+        '@image_food' => 'image_food',
+        '@image_banner' => 'image_banner',
+        '@image_package' => 'image_package',
     ],
     'components' => [
         'request' => [
